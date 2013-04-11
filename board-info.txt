@@ -1,2 +1,2 @@
-require board=j1|J1A
+require board=gee
 
