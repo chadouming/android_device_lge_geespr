@@ -26,7 +26,7 @@ $(call inherit-product-if-exists, vendor/lge/gee/gee-vendor.mk)
 DEVICE_PACKAGE_OVERLAYS += device/lge/geeb_ca/overlay
 
 ## common overlays
-DEVICE_PACKAGE_OVERLAYS += device/lge/gee-common/overlay-gsm
+DEVICE_PACKAGE_OVERLAYS += device/lge/gee-common/overlay
 
 # Inherit from gee-common
 $(call inherit-product, device/lge/gee-common/gee-common.mk)
