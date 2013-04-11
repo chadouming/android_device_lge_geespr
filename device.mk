@@ -20,7 +20,7 @@
 # Everything in this directory will become public
 
 ## (2) Also get non-open-source specific aspects if available
-$(call inherit-product-if-exists, vendor/lge/geeb_common/geeb_common-vendor.mk)
+$(call inherit-product-if-exists, vendor/lge/gee/gee-vendor.mk)
 
 ## overlays
 DEVICE_PACKAGE_OVERLAYS += device/lge/geeb_ca/overlay
