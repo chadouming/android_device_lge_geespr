@@ -20,7 +20,7 @@ BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000
 
 TARGET_KERNEL_CONFIG := geebca_defconfig
-TARGET_KERNEL_SOURCE := kernel/lge/gee
+TARGET_KERNEL_SOURCE := kernel/lge/geem
 
 # inherit from gee-common
 -include device/lge/gee-common/BoardConfigCommon.mk
