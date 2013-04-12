@@ -62,4 +62,5 @@ PRODUCT_COPY_FILES += \
    frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
 
 # CameraHAL
-PRODUCT_PACKAGES += camera.geeb_ca
+PRODUCT_PACKAGES += \
+   camera.geeb_ca
