@@ -26,7 +26,7 @@ $(call inherit-product-if-exists, vendor/lge/gee/gee-vendor.mk)
 DEVICE_PACKAGE_OVERLAYS += device/lge/geeb_ca/overlay
 
 ## common overlays
-DEVICE_PACKAGE_OVERLAYS += device/lge/gee-common/overlay-gsm
+DEVICE_PACKAGE_OVERLAYS += device/lge/gee-common/overlay
 
 # Inherit from gee-common
 $(call inherit-product, device/lge/gee-common/gee-common.mk)
@@ -53,8 +53,8 @@ PRODUCT_COPY_FILES += \
 
 # Ramdisk
 PRODUCT_COPY_FILES += \
-    device/lge/geeb_ca/ramdisk/init.geeb.rc:root/init.geeb.rc \
-    device/lge/geeb_ca/ramdisk/ueventd.geeb.rc:root/ueventd.geeb.rc \
+    device/lge/geeb_ca/ramdisk/init.geeb_ca.rc:root/init.geeb_ca.rc \
+    device/lge/geeb_ca/ramdisk/ueventd.geeb_ca.rc:root/ueventd.geeb_ca.rc \
     device/lge/geeb_ca/ramdisk/fstab.gee:root/fstab.gee
 
 # These are the hardware-specific features
@@ -62,4 +62,4 @@ PRODUCT_COPY_FILES += \
    frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
 
 # CameraHAL
-PRODUCT_PACKAGES += camera.geeb
+PRODUCT_PACKAGES += camera.geeb_ca
