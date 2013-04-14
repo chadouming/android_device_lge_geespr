@@ -47,9 +47,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.default_network=9 \
     ro.ril.def.preferred.network=9
 
-		# Vold configuration
+# Vold configuration
 PRODUCT_COPY_FILES += \
     device/lge/geeb_ca/vold.fstab:system/etc/vold.fstab
+
+# GPS configuration
+PRODUCT_COPY_FILES += \
+        device/lge/geeb_ca/configs/gps.conf:system/etc/gps.conf
 
 # Ramdisk
 PRODUCT_COPY_FILES += \
