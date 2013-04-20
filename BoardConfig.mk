@@ -33,3 +33,5 @@ TARGET_BOARD_INFO_FILE := device/lge/geeb_ca/board-info.txt
 
 # inherit from the proprietary version
 -include vendor/lge/gee/BoardConfigVendor.mk
+
+BOARD_RIL_CLASS := ../../../device/lge/geeb_ca/ril/
