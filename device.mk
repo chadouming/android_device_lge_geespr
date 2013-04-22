@@ -47,10 +47,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.default_network=9 \
     ro.ril.def.preferred.network=9
 
-PRODUCT_PROPERTY_OVERRIDES += \
-	ro.telephony.ril_class=LgeLteRIL \
-	ro.telephony.ril.v3=qcomdsds
-
 # Vold configuration
 PRODUCT_COPY_FILES += \
     device/lge/geeb_ca/vold.fstab:system/etc/vold.fstab
