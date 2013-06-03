@@ -58,12 +58,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
         device/lge/geeb_ca/configs/gps.conf:system/etc/gps.conf
 
-# Ramdisk
-PRODUCT_COPY_FILES += \
-    device/lge/geeb_ca/ramdisk/init.geeb_ca.rc:root/init.geeb_ca.rc \
-    device/lge/geeb_ca/ramdisk/ueventd.geeb_ca.rc:root/ueventd.geeb_ca.rc \
-    device/lge/geeb_ca/ramdisk/fstab.gee:root/fstab.gee
-
 # NFC Firmware
 PRODUCT_COPY_FILES += \
     device/lge/geeb_ca/prebuilt/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
@@ -71,7 +65,3 @@ PRODUCT_COPY_FILES += \
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
    frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
-
-# CameraHAL
-PRODUCT_PACKAGES += \
-   camera.geeb_ca
