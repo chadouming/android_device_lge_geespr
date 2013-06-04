@@ -23,5 +23,8 @@ TARGET_OTA_ASSERT_DEVICE := geebus,geebusc,geeb_att,geeb,gee_sp,geeb_att_us,e970
 # board-info
 TARGET_BOARD_INFO_FILE := device/lge/geeb_ca/board-info.txt
 
+#override bootloader name
+TARGET_BOOTLOADER_NAME=geeb
+
 # inherit from the proprietary version
 -include vendor/lge/gee/BoardConfigVendor.mk
