@@ -2,25 +2,25 @@ LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE       := fstab.gee_spr
+LOCAL_MODULE       := fstab.geeb_ca
 LOCAL_MODULE_TAGS  := optional eng
 LOCAL_MODULE_CLASS := ETC
-LOCAL_SRC_FILES    := etc/fstab.gee_spr
+LOCAL_SRC_FILES    := etc/fstab.geeb_ca
 LOCAL_MODULE_PATH  := $(TARGET_ROOT_OUT)
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE       := init.gee_spr.rc
+LOCAL_MODULE       := init.geeb_ca
 LOCAL_MODULE_TAGS  := optional eng
 LOCAL_MODULE_CLASS := ETC
-LOCAL_SRC_FILES    := etc/init.gee_spr.rc
+LOCAL_SRC_FILES    := etc/init.geeb_ca.rc
 LOCAL_MODULE_PATH  := $(TARGET_ROOT_OUT)
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE       := ueventd.gee_spr.rc
+LOCAL_MODULE       := ueventd.geeb_ca.rc
 LOCAL_MODULE_TAGS  := optional eng
 LOCAL_MODULE_CLASS := ETC
-LOCAL_SRC_FILES    := etc/init.gee_spr.rc
+LOCAL_SRC_FILES    := etc/init.geeb_ca.rc
 LOCAL_MODULE_PATH  := $(TARGET_ROOT_OUT)
 include $(BUILD_PREBUILT)

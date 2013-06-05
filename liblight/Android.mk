@@ -21,7 +21,7 @@ LOCAL_SRC_FILES := lights.c
 LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)/hw
 LOCAL_SHARED_LIBRARIES := liblog
 LOCAL_CFLAGS := $(common_flags) -DLOG_TAG=\"qdlights\"
-LOCAL_MODULE := lights.gee_spr
+LOCAL_MODULE := lights.geeb_ca
 LOCAL_MODULE_TAGS := optional
 
 include $(BUILD_SHARED_LIBRARY)

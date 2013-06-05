@@ -26,6 +26,7 @@ TARGET_OTA_ASSERT_DEVICE := geebus,geebusc,geeb_att,geeb,gee_sp,geeb_att_us,e970
 TARGET_BOARD_INFO_FILE := device/lge/geeb_ca/board-info.txt
 
 TARGET_BOOTLOADER_NAME := geeb_ca
+TARGET_RECOVERY_UI_LIB := librecovery_ui_geeb_ca
 
 # inherit from the proprietary version
 -include vendor/lge/gee/BoardConfigVendor.mk

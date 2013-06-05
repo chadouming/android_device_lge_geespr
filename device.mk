@@ -38,9 +38,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    init.gee_spr.rc \
-    fstab.gee_spr \
-    ueventd.gee_spr.rc
+    init.geeb_ca.rc \
+    fstab.geeb_ca \
+    ueventd.geeb_ca.rc
 
 # Do not power down SIM card when modem is sent to Low Power Mode.
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -59,11 +59,11 @@ PRODUCT_COPY_FILES += \
 
 #Camera HAL 1.0 since 2.0 doesn't work yet
 PRODUCT_PACKAGES += \
-	camera.gee_spr
+	camera.geeb_ca
 
 #Custom Lights
 PRODUCT_PACKAGES += \
-	lights.gee_spr
+	lights.geeb_ca
 
 # GPS configuration
 PRODUCT_COPY_FILES += \
