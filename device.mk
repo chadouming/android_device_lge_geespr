@@ -36,6 +36,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.debuggable=1 \
     persist.service.adb.enable=1
 
+# Ramdisk
+PRODUCT_PACKAGES += \
+    init.gee_spr.rc \
+    fstab.gee_spr \
+    ueventd.gee_spr.rc
+
 # Do not power down SIM card when modem is sent to Low Power Mode.
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.apm_sim_not_pwdn=1
@@ -50,6 +56,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Vold configuration
 PRODUCT_COPY_FILES += \
     device/lge/geeb_ca/vold.fstab:system/etc/vold.fstab
+
+#Camera HAL 1.0 since 2.0 doesn't work yet
+PRODUCT_PACKAGES += \
+	camera.gee_spr
+
+#Custom Lights
+PRODUCT_PACKAGES += \
+	lights.gee_spr
 
 # GPS configuration
 PRODUCT_COPY_FILES += \
