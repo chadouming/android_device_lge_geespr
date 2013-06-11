@@ -14,8 +14,6 @@
 
 TARGET_KERNEL_CONFIG := geebca_defconfig
 
-BOARD_KERNEL_CMDLINE := console=ttySHL0,115200,n8 androidboot.hardware=geeb_ca lpj=67677
-
 # inherit from gee-common
 -include device/lge/gee-common/BoardConfigCommon.mk
 
