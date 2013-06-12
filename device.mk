@@ -51,10 +51,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES += \
     device/lge/geeb_ca/vold.fstab:system/etc/vold.fstab
 
-# GPS configuration
-PRODUCT_COPY_FILES += \
-        device/lge/geeb_ca/configs/gps.conf:system/etc/gps.conf
-
 # NFC Firmware
 PRODUCT_COPY_FILES += \
     device/lge/geeb_ca/prebuilt/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
