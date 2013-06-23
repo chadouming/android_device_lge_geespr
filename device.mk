@@ -46,7 +46,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Vold configuration
 PRODUCT_COPY_FILES += \
     device/lge/geeb_ca/vold.fstab:system/etc/vold.fstab
-
-# NFC Firmware
-PRODUCT_COPY_FILES += \
-    device/lge/geeb_ca/prebuilt/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
