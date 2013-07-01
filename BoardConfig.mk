@@ -18,7 +18,7 @@ TARGET_KERNEL_CONFIG := geebca_defconfig
 -include device/lge/gee-common/BoardConfigCommon.mk
 
 # assert
-TARGET_OTA_ASSERT_DEVICE := geebus,geebusc,geeb_att,geeb,gee_sp,geeb_att_us,e970,geeb_att_us,jeebus,jeebusc,geeb_ca
+TARGET_OTA_ASSERT_DEVICE := geeb_att,geeb,geeb_att_us,e970,geeb_att_us,geeb_ca
 
 # board-info
 TARGET_BOARD_INFO_FILE := device/lge/geeb_ca/board-info.txt
