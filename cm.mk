@@ -15,13 +15,14 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/lge/geeb_ca/full_geeb_ca.mk)
+$(call inherit-product, device/lge/geeb/full_geeb.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := geeb_ca
-PRODUCT_NAME := cm_geeb_ca
+PRODUCT_DEVICE := geeb
+PRODUCT_NAME := cm_geeb
 PRODUCT_BRAND := LGE
-PRODUCT_MODEL := LG-E973
+PRODUCT_MODEL := Optimus G
 PRODUCT_MANUFACTURER := LGE
+PRODUCT_RESTRICT_VENDOR_FILES := false
 
-PRODUCT_BUILD_PROP_OVERRIDES += BUILD_FINGERPRINT=google/occam/GEEB_CA:4.2.2/JDQ39/573038:user/release-keys PRIVATE_BUILD_DESC="gee-user 4.2.2 JDQ39 573038 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += BUILD_FINGERPRINT=lge/gee/geeb:4.2.2/JDQ39/573038:user/release-keys PRIVATE_BUILD_DESC="gee-user 4.2.2 JDQ39 573038 release-keys"

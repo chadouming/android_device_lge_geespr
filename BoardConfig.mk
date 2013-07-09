@@ -1,4 +1,4 @@
-# Copyright (C) 2011 The Android Open-Source Project
+# Copyright (C) 2013 The Android Open-Source Project
 # 
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-TARGET_KERNEL_CONFIG := geebca_defconfig
+TARGET_KERNEL_CONFIG := geeb_defconfig
 
 # inherit from gee-common
 -include device/lge/gee-common/BoardConfigCommon.mk
@@ -21,7 +21,7 @@ TARGET_KERNEL_CONFIG := geebca_defconfig
 TARGET_OTA_ASSERT_DEVICE := geeb_att,geeb,geeb_att_us,e970,geeb_att_us,geeb_ca
 
 # board-info
-TARGET_BOARD_INFO_FILE := device/lge/geeb_ca/board-info.txt
+TARGET_BOARD_INFO_FILE := device/lge/geeb/board-info.txt
 
 # inherit from the proprietary version
 -include vendor/lge/gee/BoardConfigVendor.mk

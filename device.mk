@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2011 The Android Open-Source Project
+# Copyright (C) 2013 The Android Open-Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,7 +15,7 @@
 #
 
 # This file includes all definitions that apply to ALL geehrc devices, and
-# are also specific to geehrc devices
+# are also specific to gee devices
 #
 # Everything in this directory will become public
 
@@ -23,7 +23,7 @@
 $(call inherit-product-if-exists, vendor/lge/gee/gee-vendor.mk)
 
 ## overlays
-DEVICE_PACKAGE_OVERLAYS += device/lge/geeb_ca/overlay
+DEVICE_PACKAGE_OVERLAYS += device/lge/geeb/overlay
 
 ## common overlays
 DEVICE_PACKAGE_OVERLAYS += device/lge/gee-common/overlay
@@ -37,3 +37,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     telephony.lteOnGsmDevice=1 \
     ro.telephony.default_network=9 \
     ro.ril.def.preferred.network=9
+
+# Vold configuration
+PRODUCT_COPY_FILES += \
+    device/lge/geeb/vold.fstab:system/etc/vold.fstab
