@@ -13,4 +13,4 @@
 ## storage_struct - ex) series, "/mnt/sdcard/extStorages" / parallel
 ######################
 # external sdcard
-dev_mount sdcard /storage/sdcard1 auto /devices/platform/msm_sdcc.3/mmc_host/mmc1/
+# dev_mount sdcard /storage/sdcard1 auto /devices/platform/msm_sdcc.3/mmc_host/mmc1/
