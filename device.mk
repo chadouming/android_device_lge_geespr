@@ -37,7 +37,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
     telephony.lteOnGsmDevice=1 \
     ro.telephony.default_network=9 \
     ro.ril.def.preferred.network=9
-
-# Camera
- PRODUCT_PACKAGES += \
- 	camera.geeb
