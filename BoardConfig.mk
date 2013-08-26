@@ -23,5 +23,8 @@ TARGET_OTA_ASSERT_DEVICE := geeb_att,geeb,geeb_att_us,e970,geeb_att_us,geeb_ca,g
 # board-info
 TARGET_BOARD_INFO_FILE := device/lge/geeb/board-info.txt
 
+# We provide camera HAL.
+USE_DEVICE_SPECIFIC_CAMERA := true
+
 # inherit from the proprietary version
 -include vendor/lge/gee/BoardConfigVendor.mk
