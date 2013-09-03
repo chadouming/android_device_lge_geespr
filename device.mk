@@ -39,6 +39,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.ril.def.preferred.network=9
 
 PRODUCT_PACKAGES += \
-	camera.qcom \
+	camera.msm8960 \
 	libmmcamera_interface2 \
 	libmmcamera_interface
