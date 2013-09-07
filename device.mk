@@ -32,7 +32,7 @@ DEVICE_PACKAGE_OVERLAYS += device/lge/gee-common/overlay
 $(call inherit-product, device/lge/gee-common/gee-common.mk)
 
 #NFC firmware
-PRODUCT_COPY_FILES := \
+PRODUCT_COPY_FILES += \
     device/lge/geeb/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
 
 # Telephony Properties
