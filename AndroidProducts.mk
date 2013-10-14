@@ -15,4 +15,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cm.mk
+    $(LOCAL_DIR)/aosp_geeb.mk \
+    $(LOCAL_DIR)/custom_geeb.mk
