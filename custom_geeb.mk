@@ -43,4 +43,4 @@ TARGET_KERNEL_CONFIG := geeb_defconfig
 TARGET_VARIANT_CONFIG := geeb_defconfig
 TARGET_SELINUX_CONFIG := geeb_defconfig
 
-$(call inherit-product-if-exists, vendor/lge/mako/mako-vendor.mk)
+$(call inherit-product, vendor/lge/gee/gee-vendor.mk)
