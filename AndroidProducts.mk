@@ -16,4 +16,4 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_geeb.mk \
-    $(LOCAL_DIR)/custom_geeb.mk
+    $(LOCAL_DIR)/omni_geeb.mk

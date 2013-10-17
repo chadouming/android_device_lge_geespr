@@ -15,4 +15,4 @@
 #
 
 add_lunch_combo full_geeb-userdebug
-add_lunch_combo custom_geeb-userdebug
+add_lunch_combo omni_geeb-userdebug
