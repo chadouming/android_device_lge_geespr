@@ -18,10 +18,7 @@ TARGET_KERNEL_CONFIG := geeb_defconfig
 -include device/lge/gee-common/BoardConfigCommon.mk
 
 # assert
-TARGET_OTA_ASSERT_DEVICE := geeb_att,geeb,geeb_att_us,e970,geeb_att_us,geeb_ca,geebus
-
-# board-info
-TARGET_BOARD_INFO_FILE := device/lge/geeb/board-info.txt
+TARGET_OTA_ASSERT_DEVICE := geebus
 
 # inherit from the proprietary version
 -include vendor/lge/gee/BoardConfigVendor.mk
