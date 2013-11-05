@@ -1,5 +1,5 @@
 #
-# Copyright 2013 The Android Open Source Project
+# Copyright 2012 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,6 +12,10 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+#
+
+# Sample: This is where we'd set a backup provider if we had one
+# $(call inherit-product, device/sample/products/backup_overlay.mk)
 
 # Get the long list of APNs
 $(call inherit-product, vendor/omni/config/gsm.mk)
@@ -19,13 +23,24 @@ $(call inherit-product, vendor/omni/config/gsm.mk)
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-PRODUCT_NAME := full_geeb
-PRODUCT_DEVICE := geeb
-PRODUCT_BRAND := Android
-PRODUCT_MODEL := Optimus G
-PRODUCT_MANUFACTURER := LGE
-PRODUCT_RESTRICT_VENDOR_FILES := true
+# Inherit from our omni product configuration
+$(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit from hardware-specific part of the product configuration
-$(call inherit-product, device/lge/geeb/device.mk)
-$(call inherit-product-if-exists, vendor/lge/gee/gee-vendor.mk)
+$(call inherit-product, device/lge/geehrc/device.mk)
+
+# Inherit from common hardware-specific part of the product configuration
+$(call inherit-product, device/lge/gee-common/gee-common.mk)
+
+PRODUCT_NAME := omni_geehrc
+PRODUCT_DEVICE := geehrc
+PRODUCT_BRAND := LGE
+PRODUCT_MODEL := Optimus G
+PRODUCT_MANUFACTURER := LGE
+
+# Kernel inline build
+TARGET_KERNEL_CONFIG := geehrc_defconfig
+TARGET_VARIANT_CONFIG := geehrc_defconfig
+TARGET_SELINUX_CONFIG := geehrc_defconfig
+
+$(call inherit-product, vendor/lge/gee/gee-vendor.mk)

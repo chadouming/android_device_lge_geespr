@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-TARGET_KERNEL_CONFIG := geeb_defconfig
+TARGET_KERNEL_CONFIG := geehrc_defconfig
 
 # inherit from gee-common
 -include device/lge/gee-common/BoardConfigCommon.mk
