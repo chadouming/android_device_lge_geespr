@@ -1,0 +1,20 @@
+[
+  {
+    "remote": "github",
+    "repository": "chadouming/kernel_msm",
+    "target_path": "kernel/lge/gee",
+    "revision": "android-4.4"
+  },
+  {
+    "remote": "github",
+    "repository": "chadouming/android_device_lge_gee-common",
+    "target_path": "device/lge/gee-common",
+    "revision": "android-4.4"
+  },
+  {
+    "remote": "github",
+    "repository": "android_vendor_lge_gee",
+    "target_path": "vendor/lge/gee",
+    "revision": "android-4.4"
+  }
+]
