@@ -18,7 +18,7 @@
 # $(call inherit-product, device/sample/products/backup_overlay.mk)
 
 # Get the long list of APNs
-$(call inherit-product, vendor/omni/config/gsm.mk)
+$(call inherit-product, vendor/omni/config/cdma.mk)
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
@@ -27,13 +27,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit from hardware-specific part of the product configuration
-$(call inherit-product, device/lge/geehrc/device.mk)
+$(call inherit-product, device/lge/geespr/device.mk)
 
 # Inherit from common hardware-specific part of the product configuration
 $(call inherit-product, device/lge/gee-common/gee-common.mk)
 
-PRODUCT_NAME := omni_geehrc
-PRODUCT_DEVICE := geehrc
+PRODUCT_NAME := omni_geespr
+PRODUCT_DEVICE := geespr
 PRODUCT_BRAND := LGE
 PRODUCT_MODEL := Optimus G
 PRODUCT_MANUFACTURER := LGE

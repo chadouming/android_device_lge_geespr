@@ -22,3 +22,6 @@ TARGET_OTA_ASSERT_DEVICE := geeb_att,geeb,geeb_att_us,e970,geeb_att_us,geeb_ca,g
 
 # inherit from the proprietary version
 -include vendor/lge/gee/BoardConfigVendor.mk
+
+#Add Custom RIL class automatically
+BOARD_RIL_CLASS := "../../../device/lge/geespr/LGEQualcommCDMARIL"
