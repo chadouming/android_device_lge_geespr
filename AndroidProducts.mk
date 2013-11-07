@@ -15,5 +15,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_geespr.mk \
+    $(LOCAL_DIR)/full_geespr.mk \
     $(LOCAL_DIR)/omni_geespr.mk
