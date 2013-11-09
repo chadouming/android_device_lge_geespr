@@ -28,9 +28,6 @@ DEVICE_PACKAGE_OVERLAYS += device/lge/geespr/overlay
 # common overlays
 DEVICE_PACKAGE_OVERLAYS += device/lge/gee-common/overlay
 
-# CDMA Overlay
-DEVICE_PACKAGE_OVERLAYS += device/lge/geespr/overlay-cdma
-
 # Inherit from gee-common
 $(call inherit-product, device/lge/gee-common/gee-common.mk)
 
