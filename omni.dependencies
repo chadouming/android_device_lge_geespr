@@ -13,7 +13,7 @@
   },
   {
     "remote": "github",
-    "repository": "chadouming/android_vendor_lge_gee",
+    "repository": "chadouming/proprietary_vendor_lge_gee",
     "target_path": "vendor/lge/gee",
     "revision": "android-4.4"
   }
