@@ -16,56 +16,5 @@
     "repository": "chadouming/kernel_msm",
     "target_path": "kernel/lge/gee",
     "revision": "android-4.4"
-  },
-  {
-    "repository": "android_hardware_qcom_audio",
-    "target_path": "hardware/qcom/audio",
-    "remote": "omnirom"
-  },
-  {
-    "repository": "android_hardware_qcom_display",
-    "target_path": "hardware/qcom/display",
-    "remote": "omnirom"
-  },
-  {
-    "repository": "android_hardware_qcom_media",
-    "target_path": "hardware/qcom/media",
-    "remote": "omnirom"
-  },
-  {
-    "repository": "platform/hardware/qcom/bt",
-    "target_path": "hardware/qcom/bt",
-    "revision": "kitkat-dev",
-    "remote": "aosp"
-  },
-  {
-    "repository": "platform/hardware/qcom/camera",
-    "target_path": "hardware/qcom/camera",
-    "revision": "kitkat-dev",
-    "remote": "aosp"
-  },
-  {
-    "repository": "platform/hardware/qcom/keymaster",
-    "target_path": "hardware/qcom/keymaster",
-    "revision": "kitkat-dev",
-    "remote": "aosp"
-  },
-  {
-    "repository": "platform/hardware/qcom/msm8960",
-    "target_path": "hardware/qcom/msm8960",
-    "revision": "kitkat-dev",
-    "remote": "aosp"
-  },
-  {
-    "repository": "platform/hardware/qcom/sensors",
-    "target_path": "hardware/qcom/sensors",
-    "revision": "kitkat-dev",
-    "remote": "aosp"
-  },
-  {
-    "repository": "platform/hardware/qcom/wlan",
-    "target_path": "hardware/qcom/wlan",
-    "revision": "kitkat-dev",
-    "remote": "aosp"
   }
 ]
