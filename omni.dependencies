@@ -66,5 +66,10 @@
     "repository": "platform/hardware/qcom/wlan",
     "target_path": "hardware/qcom/wlan",
     "remote": "aosp"
+  },
+  {
+    "repository": "platform/hardware/qcom/msm8960",
+    "target_path": "hardware/qcom/msm8960",
+    "remote": "aosp"
   }
 ]
