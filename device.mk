@@ -37,7 +37,6 @@ PRODUCT_COPY_FILES += \
 
 # Telephony Properties
 PRODUCT_PROPERTY_OVERRIDES += \
-        ro.telephony.ril_class=LGEQualcommCDMARIL \
         ro.cdma.home.operator.numeric=310120 \
         ro.cdma.home.operator.alpha=Sprint \
         telephony.lteOnCdmaDevice=1 \
