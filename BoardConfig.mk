@@ -12,7 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+KERNEL_SRC := kernel/lge/gee
+KERNEL_CONFIG := geehrc_defconfig
 TARGET_KERNEL_CONFIG := geehrc_defconfig
+BUILD_KERNEL_MODULES := false
+BUILD_KERNEL := true
+TARGET_USE_GATOR := false
 
 # inherit from gee-common
 -include device/lge/gee-common/BoardConfigCommon.mk

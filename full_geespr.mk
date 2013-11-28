@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 PRODUCT_NAME := full_geespr
 PRODUCT_DEVICE := geespr
 PRODUCT_BRAND := Android
-PRODUCT_MODEL := Optimus G
+PRODUCT_MODEL := Linaro AOSP on Optimus G
 PRODUCT_MANUFACTURER := LGE
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
